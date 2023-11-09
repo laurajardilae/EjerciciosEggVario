@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "cf0805040421"
+    },
+    {
+      "type": "text",
+      "value": "com.wdiodemoapp",
+      "name": "appium:appPackage"
+    },
+    {
+      "type": "text",
+      "name": "appium:appActivity",
+      "value": "com.wdiodemoapp.MainActivity"
+    },
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:app",
+      "value": "C:\\Users\\ardil\\OneDrive\\Documentos\\CursoQCautomat\\EjerciciosEggVarios\\appium\\Android-NativeDemoApp-0.4.0.apk"
+    },
+    {
+      "type": "text",
+      "name": "appium:appVersion",
+      "value": "11"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UiAutomator2"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "path": ""
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}

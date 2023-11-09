@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite webdriverApp" >
+
+    <parameter name="cardTitle" value="GREAT COMMUNITY"/>
+    <test name="SwipeScreen">
+        <classes>
+            <class name="test.SwipeScreenTest"></class>
+        </classes>
+    </test>
+    <test name="DragScreen">
+        <classes>
+            <class name="test.DragScreenTest"></class>
+        </classes>
+    </test>
+    <test name="FormsScreen">
+        <classes>
+            <class name="test.FormsScreenTest"></class>
+        </classes>
+    </test>
+    <test name="LoginScreen">
+        <classes>
+            <class name="test.LoginScreenTest"></class>
+        </classes>
+    </test>
+    <test name="WebviewScreen">
+        <classes>
+            <class name="test.WebviewScreenTest"></class>
+        </classes>
+    </test>
+
+
+</suite>

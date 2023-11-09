@@ -1,0 +1,28 @@
+ci cd
+velocidad, seguridad, confiabilidad
+reduce costos
+feedback rapido
+
+integracion continua BUILD AND TEST
+es posible gracias a la automatizacion de deteccion de errores en fases iniciales
+la integracion ocurre en cada push
+
+
+---
+entrega continua DEPLOYS CHANGES
+automatizacion de la entrega a produccion (o pruebas de aceptacion del cliente)
+
+que necesitamos:
+automatizar todo lo que sea posible
+un cicd pipeline
+
+pasos
+1. push
+2. test
+3. fix
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+Web automation
+crear maven
+agregar dependencias: testng, selenium, log4
+plugin surefire
+crear directory en test llamado resources
+dentro de resources crear archivo suite.xml
+
+Driver: definir el driver, instanciarlo para que interactue con la pagina
+como?
+dentro de java crear directory utils
+dentro creo clase MyDriver la cual permite manejar el driver
+
+en el proyecto creo directorio drivers y pego el driver de chrome
+
+creo la basepage
+minuto 34

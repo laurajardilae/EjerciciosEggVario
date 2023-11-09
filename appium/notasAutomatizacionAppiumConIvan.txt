@@ -1,0 +1,10 @@
+Pasos:
+Crear maven
+Agregar dependencias testng, appium, log4j, apache.login
+
+@AndroidFindBy(uiAutomator = new UiSelector().text("Login")
+accesibiltity id lo pongo como accesibility
+
+para activar el AndroidFindBy debo tener pagefactory, lo inicio en el base page para que lo herede a los hijos
+
+https://www.browserstack.com/guide/locators-in-appium

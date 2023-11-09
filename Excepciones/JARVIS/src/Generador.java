@@ -1,39 +1,25 @@
 public class Generador {
-    private float cargaMaxima;
-    private float cargaActual;
+    //private final Float cargaMaxima = Float.MAX_VALUE;
+    private final Float cargaMaxima = 10000000000f;
+    private Float cargaActual;
 
     public Generador() {
+        this.cargaActual = this.cargaMaxima;
     }
 
-    public Generador(float cargaMaxima, float cargaActual) {
-        this.cargaMaxima = cargaMaxima;
-        this.cargaActual = cargaActual;
-    }
-
-    public float getCargaMaxima() {
+    public Float getCargaMaxima() {
         return cargaMaxima;
     }
 
-    public void setCargaMaxima(float cargaMaxima) {
-        this.cargaMaxima = cargaMaxima;
-    }
-
-    public float getCargaActual() {
+    public Float getCargaActual() {
         return cargaActual;
     }
 
-    public void setCargaActual(float cargaActual) {
+    public void setCargaActual(Float cargaActual) {
         this.cargaActual = cargaActual;
     }
 
-    @Override
-    public String toString() {
-        return "Generador{" +
-                "cargaMaxima=" + cargaMaxima +
-                ", cargaActual=" + cargaActual +
-                '}';
-    }
-    public void disminuirCargaActual(float cargaPerdida){
-        cargaActual -= cargaPerdida;
+    public void disminuirCarga(Float consumo) {
+        this.cargaActual -= consumo;
     }
 }

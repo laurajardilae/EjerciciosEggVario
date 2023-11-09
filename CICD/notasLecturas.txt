@@ -1,0 +1,86 @@
+los sistemas de control de versiones ayudan a
+-realizar seguimiento y manejo de cambios en el codigo
+-trabajar mas rapido e inteligente
+util en devops por disminucion del tiempo de codigo
+-hacer backups
+-mantener la historia
+-ver cambios
+-expermientar
+-colaborar
+el control de versiones tiene seguimiento del codigo de tal manera que si se comete un error se puede volver a una version anterior
+el sistema distribuido es
+mas rapido
+offline
+participar en proyectos open source
+
+----------------------------------------
+que es git
+es chiquito y poderoso
+es distribuido DVCS
+tiene staging area
+es abierto y todos puedes participar
+es el mas usado
+PERFORMANCE
+esta optimizado para ejecutar diferentes acciones
+no se confunde por el nombre de los archivos porque se enfoca en el contenido
+SEGURIDAD
+su prioridad es manejar el codigo fuente
+aseugrado criptograficamente
+FLEXIBILIDAD
+soporta desarrollo no lineal
+util en proyectos pequeños o grandes
+compatibilidad con  sistemas existentes y protocolos
+full seguimiento de ramas y etiquetas asi como de merging o reverting
+
+por qué git
+el uso de ramas permite que el main SOLO contenga software de calidad
+compatible con agilidad porque permite conectar con jira con una rama
+cada developer tiene acceso a todo pues tiene su propio repositorio lo que permite trabajar siempre en lo suyo aunque alguien mas haya cometido un error
+pull request es solicitar a otro desarrollador hacer merge de tu rama dentro de su repositorio lo que permite conversaciones entre los desarrolladores antes de integrar su trabajo al codigo base
+ventaja que casi todos ya saben usar git y sistemas distribuidos
+facilita el workflow agil y permite que sea rapido
+conectar los pull request con el test server para aumentar la automatizacion
+
+como impacta en el marketing
+No se realiza un solo lanzamiento con todo, se pueden hacer varios pequeños lanzamientos, da mas de que hablar
+de igual manera, mas lanzamientos  significa mas feedback de los clientes
+permite flexibilidad cuando cambias las prioridades
+permite a los diseñadores hacer prototipos facilmente que pueden ser revisador por los lideres
+
+git con el cliente
+es poder repara bugs asap sin posponerlo hasta un siguiente lanzamiento
+
+git con HR
+atraer talento humano (para empresas)
+
+
+
+
+
+
+
+----------------------------------------
+Que es devops
+una manera de trabajar
+es cuando el desarrollador se acerca al usuario y entiende sus necesidades y requerimientos
+principios
+operaciones y desarrollo trabajan de manera colaborativa
+la responsabilidad del equipo devops es asegurar una entrega con calidad
+toman el proyecto desde que es una idea hasta el entregable para generar compromiso con el proyecto
+automatizacion 
+mejora continua (agil)
+enfoque en el cliente
+crear visualizando el fin del proyecto
+BENEFICIOS
+-TECNICOS
+disminucion de complejidad, entrega continua, rapida resolucion de problemas
+-CULTURALES
+equipos productivos y eficientes y clientes felices
+-PARA EL NEGOCIO
+mayor confianza y colaboracion entre los miembros del equipo, entregas rapidas 
+VALORES
+transparencia
+colaboracion
+comunicacion
+servicios siempre disponibles (always on)
+

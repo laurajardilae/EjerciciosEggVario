@@ -1,0 +1,25 @@
+development stage
+funcona como deberia?
+
+cuaqndo autoatizar
+1. la app es relativamente estable
+2. test que se deben correr cada vez que se modifica la app
+3. tests que usan multiples datos para los mismos casos
+4. that requier especific data (sql)
+5. stress or load
+6. test que deben correr en diversos enviroments
+
+cuando no:
+1. test de usabilidad (clickear 100 veces el mismo boton)
+2. test que necesitamos una sola vez
+3. apps inestable
+4. tests con resultados inpredecibles
+
+diferencias manual y automatizado
+
+
+diseño de tests
+partctpacion de equivalencias
+tecnicas de analisis y diseño
+
+
