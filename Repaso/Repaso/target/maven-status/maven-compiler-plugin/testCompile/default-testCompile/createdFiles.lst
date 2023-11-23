@@ -1,0 +1,8 @@
+pages\BasePage.class
+test\runTest.class
+test\StepDefinition.class
+pages\HistoryWikipediaPage.class
+pages\SearchResultWikipediaPage.class
+pages\EditWikipediaPage.class
+utils\TestDriver.class
+pages\WikipediaPage.class

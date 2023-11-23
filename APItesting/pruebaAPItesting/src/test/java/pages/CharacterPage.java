@@ -1,0 +1,24 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class CharacterPage extends BasePage {
+
+    public CharacterPage(WebDriver driver) {
+        super(driver);
+    }
+    @FindBy(className = "mw-page-title-main")
+    private WebElement pageTitle;
+
+    public boolean isTitleCorrect(String title){
+        waitElementVisibility(pageTitle);
+        return pageTitle.isDisplayed()&&pageTitle.getText().equalsIgnoreCase(title);
+    }
+
+
+
+
+
+}
