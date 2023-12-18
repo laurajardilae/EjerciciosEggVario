@@ -1,0 +1,17 @@
+API 
+Se desarrollan en el back, porque no tienen interfaz visual
+
+Que es? Set de funciones de un software que es ejecutado por otro software
+Como funciona? Envio un input y recibo ccomo respuesta el output
+Funciona con HTTP response codes
+
+ACCIONES CRUD
+Read se hace con GET, el get no tine cuerpo
+Create se hace con POST, modifican el estado del servidor (WRITE, create new record), tienen cuerpo que contiene toda la info
+Update se hace con PUT, cambiar info que ya existe (UPDATE), inseguros porque modifican lo que ya esta, tiene body
+Delete se hace con DELETE, unsafe, NO request body
+
+
+
+
+

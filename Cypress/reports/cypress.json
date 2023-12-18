@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://www.demoblaze.com",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reporDir": "cypress/report/mochawesome-report",
+        "overwrite": true,    
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"    
+    }
+}

@@ -1,0 +1,11 @@
+Node
+js runtime enviroment
+hacer apps en js escalables
+
+npm es el package manager de js
+npm install -> instala las dependencias necesarias
+
+yarn es otro package manager
+
+
+

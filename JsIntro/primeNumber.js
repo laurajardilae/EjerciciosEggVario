@@ -1,6 +1,17 @@
-let number = 10
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
 
-function checkIsTheNumIsPrime(number){
+readline.question("ingrese el numero a evaluar: ", num => {
+    if (checkIfTheNumIsPrime(Number(num))) {
+        console.log("el numero " + num + " es primo")
+    } else {
+        console.log("el numero " + num + " no es primo")
+    }
+})
+
+function checkIfTheNumIsPrime(number){
     let esPrimo = true;
     for(i=2; i<(number/2); i++){
         if(number%i==0){
@@ -8,7 +19,7 @@ function checkIsTheNumIsPrime(number){
             break;
         }
     }
-    console.log("El numero es primo: " + esPrimo)
+    return esPrimo;
 }
 
-checkIsTheNumIsPrime(number);
+
