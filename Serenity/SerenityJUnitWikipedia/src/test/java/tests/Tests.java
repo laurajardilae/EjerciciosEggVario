@@ -1,23 +1,27 @@
 package tests;
 
-import net.serenitybdd.annotations.Narrative;
-import net.serenitybdd.annotations.Steps;
-import net.serenitybdd.annotations.WithTag;
-import net.serenitybdd.annotations.WithTags;
+import net.serenitybdd.annotations.*;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import page.HomePage;
 import steps.MySteps;
 
+@RunWith(SerenityRunner.class)
 @Narrative(text = {"Wikipedia test"})
 @WithTags({@WithTag("sample")})
 public class Tests {
     @Steps
-    MySteps mySteps = new MySteps();
+    MySteps mySteps;
 
+    @Managed
+    HomePage homePage;
+    //WebDriver driver;
     @Test
-    public void verifySerenityBDDSetup() {
+    public void verifyTitle() {
         mySteps.openBrowser();
-        mySteps.searchString();
-        mySteps.verifyResult();
+        mySteps.searchString("Microsoft");
+        mySteps.verifyResult("Microsoft");
     }
 
 
